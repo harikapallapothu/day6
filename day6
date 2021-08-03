@@ -1,0 +1,42 @@
+2)
+a)
+<!DOCTYPE html>
+<html>
+<body>
+ <script>
+ alert( "I’m JavaScript!");
+ </script>
+ Whats the error in this ?
+</body>
+</html>
+_______________________________
+b)
+<!DOCTYPE html>
+<html>
+<body>
+ <script src = "script.js">
+ </script> 
+</body>
+</html>
+SCRIPT.JS
+alert("Iam invoked!");
+_____________________________
+c)
+alert("I'm JavaScript!"); //no error
+alert('Hello') // this line is not having semicolon
+alert(`Wor
+ ld`)//unterminated string
+alert(3 +
+1
++ 2); // this is multiple line code and unterminated string literal
+_____________________________
+d)
+let admin; 
+let fname = "Guvi";
+let lname = "geek"
+admin = fname+" "+lname;
+alert( admin ); 
+______________________________
+e)
+
+
