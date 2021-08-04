@@ -31,3 +31,4 @@ var ano = function(arr) {
 ano(arr);
 ________________________
 4)
+last 10 left
