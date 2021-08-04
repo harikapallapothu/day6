@@ -1,0 +1,140 @@
+1)
+var numsArr = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
+var new_string = "";
+ 
+for (var i = 0; i < 11; i++) {
+ new_string += numsArr[i];
+}
+console.log(new_string);
+_____________________________________
+2)
+var numsArr = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
+var new_string = numsArr[0];
+ 
+for (var i = 1; i < 11; i++) {
+ new_string = new_string + ","+ numsArr[i] 
+}
+console.log(new_string);
+______________________________________
+3)
+var new_string = "";
+var numsArr = [1,2,3,4,5,6,7,8,9,10,11];
+for (var i = 10; i >= 0; i-- ) {
+ new_string += numsArr[i] + " "; 
+}
+console.log(new_string);
+________________________________________
+4)
+var numsArr = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
+for (var i = 0; i <=10; i++) {
+ if(numsArr[i] %2 == 0 )
+ {
+ numsArr[i] = "even"
+ }
+}
+console.log(numsArr);
+_____________________________________
+5)
+var numsArr = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
+for (var i = 0; i <=10; i++) {
+ if([i] %2 == 0 )
+ {
+ numsArr[i] = "even"
+ }
+}
+console.log(numsArr);
+__________________________________
+6)
+var numsArr = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
+var sum=0;
+for (var i = 0; i <=10; i++) {
+ 
+ sum += numsArr[i]
+}
+console.log(sum);
+______________________________
+7)
+var numsArr = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
+var sum=0;
+for (var i = 0; i <=10; i++) {
+ if(numsArr[i]%2===0)
+ sum += numsArr[i]
+}
+console.log(sum);
+_______________________________-
+8)
+var numsArr = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
+var sum=100;
+for (var i = 0; i <=10; i++) {
+ if(numsArr[i]%2==0)
+ {
+ sum += numsArr[i]
+ }
+ else
+ {
+ sum -= numsArr[i]
+ }
+}
+console.log(sum);
+___________________________--
+9)
+var numsArr = [[1, 2, 3, 4, 5],[ 6, 7, 8, 9, 10, 11]];
+for (var i = 0; i < numsArr.length; i++) {
+ console.log( numsArr[i])
+}
+_______________________
+10)
+var numsArr = [[1, 2, 3, 4, 5],[ 6, 7, 8, 9, 10, 11]];
+var str_all="";
+for (var i = 0; i < numsArr.length; i++) 
+{
+ var inner_array = numsArr[i];
+ for(var j = 0 ; j < inner_array.length;j++ )
+     str_all +=inner_array[j];
+}
+console.log(str_all);
+______________________________
+11)
+var numsArr = [[1, 2, 3, 4, 5],[ 6, 7, 8, 9, 10, 11]];
+var str_all=0;
+for (var i = 0; i < numsArr.length; i++) {
+ var inner_array = numsArr[i];
+ for(var j = 0 ; j < inner_array.length;j++ )
+      if(j %2 == 0 )
+      {
+        inner_array[j] = "even"
+       }
+}
+console.log(numsArr);
+________________________________
+12)
+var numsArr = [[1, 2, 3, 4, 5],[ 6, 7, 8, 9, 10, 11]];
+var str_all="";
+for (var i = numsArr.length-1; i >=0; i--) {
+ var inner_array = numsArr[i];
+ for(var j = inner_array.length-1; j >= 0 ;j-- )
+     str_all = str_all + " "+ inner_array[j];
+}
+console.log(str_all);
+_____________________________________
+13)
+var numsArr = [[1, 2, 3, 4, 5],[ 6, 7, 8, 9, 10, 11]];
+var sum_odd=0;
+var sum_even=0;
+for (var i = 0; i < numsArr.length; i++) {
+ var inner_array = numsArr[i];
+ for(var j = 0 ; j < inner_array.length;j++ ){
+ if(inner_array[j]%2!=0)
+ {
+ sum_odd += inner_array[j]
+ }
+ else
+ {
+ sum_even += inner_array[j]
+ }
+}
+}
+console.log(sum_odd);
+console.log(sum_even);
+_________________________________________
+14)
