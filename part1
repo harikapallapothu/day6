@@ -185,4 +185,14 @@ t)
    _________________
    u)
    
-
+let n = 123;
+n = n.toString()
+console.log(add(n));
+function add(n)
+{
+let sum = 0;
+for(var i=0;i<n.length;i++){
+ sum = sum +parseInt(n[i]);
+ }
+ return sum;
+}
