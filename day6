@@ -39,4 +39,150 @@ alert( admin );
 ______________________________
 e)
 
+let fname,lname; 
+fname = "Guvi";
+lname = "geek"
+let name1 = fname+" " +lname;
+alert( "hello" +" "+ name1 );
+______________________________
+f)
+let a = parseInt(prompt("First number?"));
+let b = parseInt(prompt("Second number?"));
+alert(a + b);
+_______________________________
+g)
+var a = "2" > "12";//here the variable is stored in type of string
+//Don't touch below this
+if (a) {
+  console.log("Code is Blasted")
+}
+else
+{
+  console.log("Diffused") 
+}
+______________________________
+h)
+let a = prompt("Enter a number?");
+console.log(typeof(a))
+if (typeof(a)===Number) {
+ console.log( 'OMG it works for any number inc 0' );
+}
+else
+{
+ console.log( "Success" );
+}
+________________________________
+i)
+let value = parseInt(prompt('How many runs you scored in this ball'));
+if (value === 4) {
+      console.log("You hit a Four");
+} else if (value === 6) {
+      console.log("You hit a Six");
+} else {
+      console.log("I couldn't figure out");
+}
+_____________________________________
+j)
+let login = 'Employee';
+let message = (login == 'Employee') ? 'Greetings': 
+  (login == 'Director') ? 'Greetings' :
+  (login == '') ? 'No login' :
+  ' '
+console.log(message);
+___________________________________
+k)
+let message;
+if (null || 2 || undefined )
+{
+  message = "welcome boss";
+}
+else
+{
+  message = "Go away";
+}
+  console.log(message);
+  _______________________________
+  l)
+  var  message;
+var lock;
+//Dont change any code below this 
+if (null || lock || undefined )
+{
+  message = "Go away";
+}
+else
+{
+ message = "welcome";
+}
+  console.log(message);
+  ________________________
+  m)
+  let message;
+let lock;
+//Dont change any code below this
+if (lock && " " || undefined )
+{
+  message = "Go away";
+}
+else
+{
+ message = "welcome";
+}
+console.log(message);
+_____________________________
+n)
+let i = 3;
+while (i) {
+  console.log( i );
+  i--;
+}
+_____________________
+o)
+let num = 1;
+while(num<=10){
+    console.log(num);
+    num++;
+}
+_________________
+p)
+for (let num = 2; num <= 20; num += 2) {
+    console.log(num)
+  }
+______________
+q)
+let gifts = ["teddy bear", "drone", "doll"];
+for (let i = 0; i < 3; i++) {
+  console.log('Wrapped ${',gifts[i],'} and added a bow!');
+}
+_____________________
+r)
+let countdown = 100;
+while (countdown > 0) {
+  countdown--;
+  if(countdown == 1){
+      break;
+  }
+  if(countdown == 0)
+  {
+   console.log("bomb triggered");
+  }
+}
+____________________
+s)
+here limein is a string value and it is true so if(limein) loop is true and hi is assigned to msg and printed.
+_______________
+t)
+ var aa = (f,s,t) => {
+    console.log(f,s,t);
+    if(f>s &&f>t){
+    console.log(f)}
+    else if(s>f && s>t){
+    console.log(s)}
+    else{
+    console.log(t)}
+   }
+   aa(1,2,3);
+   _________________
+   u)
+   
 
